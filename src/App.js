@@ -41,7 +41,7 @@ function App() {
         <PriceEntryField customstyle="field" label="Price excl VAT: " priceChanged={handleNetPriceChange} price={netPrice === 0.0 ? "" : netPrice} />
         <DisplayBlock customstyle="field" label="VAT to pay: " value={vatToPay} />
         <PriceEntryField customstyle="field" label="Price incl VAT: " priceChanged={handleGrossPriceChange} price={grossPrice === 0.0 ? "" : grossPrice} />
-        SIMPLE!!!
+        If you need to know about VAT retail schemes click <a href ="https://www.gov.uk/vat-retail-schemes"> HMRC VAT Retail Schemes</a>
       </div>
     </div>
   );
